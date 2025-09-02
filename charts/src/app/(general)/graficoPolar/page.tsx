@@ -55,7 +55,7 @@ export default function page() {
       {
         charData ? (
           <div>
-            <h3>Grafico Polar</h3>
+            <h3 className="text-2xl font-bold text-black bg-green-500 p-3 rounded-lg text-center">Grafico Polar</h3>
             <PolarArea data={charData} width={1800} height={800} options={{
     responsive: false,
   }}></PolarArea>
